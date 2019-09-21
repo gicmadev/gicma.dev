@@ -1,0 +1,19 @@
+# project_name=gicma.dev
+version: "3"
+services:
+  feeds: # scale=2
+    image: gicmadev/gicma.dev:latest
+    networks:
+      - traefik
+    restart: always
+    labels:
+      traefik.enable: true
+      traefik.backend: "gicma.dev"
+      traefik.frontend.priority: 500
+      traefik.frontend.rule: "Host:gicma.dev,www.gicma.dev"
+      traefik.frontend.redirect.regex: ^https?://www.gicma.dev/(.*)
+      traefik.frontend.redirect.replacement: https://gicma.dev/$${1}
+
+networks:
+  traefik:
+    external: true

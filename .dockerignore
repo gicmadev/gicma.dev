@@ -1,0 +1,8 @@
+*
+!gatsby-node.js
+!gatsby-config.js
+!package.json
+!package-lock.json
+!src
+!static
+!nginx.conf
