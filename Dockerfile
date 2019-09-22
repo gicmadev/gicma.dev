@@ -8,4 +8,4 @@ ENV uri \$uri
 ENV PORT 80
 ENV SERVER_NAME _
 
-CMD ["sh", "-c", "envsubst < /etc/nginx/conf.d/default.conf.template > /etc/nginx/conf.d/default.conf && nginx -g ‘daemon off;’"]
+CMD ["sh", "-c", "envsubst < /etc/nginx/conf.d/default.conf.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"]
