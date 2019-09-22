@@ -1,7 +1,7 @@
 # project_name=gicma.dev
 version: "3"
 services:
-  feeds: # scale=2
+  gicma.dev: # scale=2
     image: gicmadev/gicma.dev:latest
     networks:
       - traefik
