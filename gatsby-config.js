@@ -3,7 +3,8 @@ var proxy = require("http-proxy-middleware");
 module.exports = {
   siteMetadata: {
     title: "gicma.dev",
-    description: "Studio de developpement"
+    description:
+      "Studio de développement et de conception d'applications web, métier, desktop, ou mobile."
   },
   plugins: [
     "gatsby-plugin-react-helmet",
