@@ -26,33 +26,13 @@ const Footer = class extends React.Component {
                   <ul className="menu-list">
                     <li>
                       <Link to="/" className="navbar-item">
-                        Home
+                        Accueil
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/about">
-                        About
+                      <Link className="navbar-item" to="/a-propos">
+                        À propos
                       </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
                     </li>
                   </ul>
                 </section>
@@ -62,26 +42,39 @@ const Footer = class extends React.Component {
                   <ul className="menu-list">
                     <li>
                       <Link className="navbar-item" to="/blog">
-                        Latest Stories
+                        Blog
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/contact">
+                      <a
+                        className="navbar-item"
+                        href="mailto:contact@gicma.dev"
+                      >
                         Contact
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </section>
               </div>
               <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
+                <a
+                  title="facebook"
+                  href="https://facebook.com/gicma.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src={facebook}
                     alt="Facebook"
                     style={{ width: "1em", height: "1em" }}
                   />
                 </a>
-                <a title="twitter" href="https://twitter.com">
+                <a
+                  title="twitter"
+                  href="https://twitter.com/gicmadev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     className="fas fa-lg"
                     src={twitter}
@@ -89,14 +82,24 @@ const Footer = class extends React.Component {
                     style={{ width: "1em", height: "1em" }}
                   />
                 </a>
-                <a title="instagram" href="https://instagram.com">
+                <a
+                  title="instagram"
+                  href="https://instagram.com/gicma.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src={instagram}
                     alt="Instagram"
                     style={{ width: "1em", height: "1em" }}
                   />
                 </a>
-                <a title="github" href="https://github.com/gicmadev">
+                <a
+                  title="github"
+                  href="https://github.com/gicmadev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src={github}
                     alt="GitHub"

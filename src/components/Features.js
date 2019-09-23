@@ -2,6 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
+const content = content => (
+  <p dangerouslySetInnerHTML={{ __html: content }}></p>
+);
+
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map(item => (
@@ -11,13 +15,14 @@ const FeatureGrid = ({ gridItems }) => (
             <div
               style={{
                 width: "240px",
-                display: "inline-block"
+                display: "inline-block",
+                marginBottom: "20px"
               }}
             >
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <p>{item.text}</p>
+          {content(item.text)}
         </section>
       </div>
     ))}
