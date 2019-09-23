@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 const content = content => (
-  <p dangerouslySetInnerHTML={{ __html: content }}></p>
+  <div dangerouslySetInnerHTML={{ __html: content }}></div>
 );
 
 const FeatureGrid = ({ gridItems }) => (
