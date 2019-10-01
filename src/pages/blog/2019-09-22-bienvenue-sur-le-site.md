@@ -10,4 +10,4 @@ tags:
   - gicma.dev
 ---
 
-Bienvenue sur le blog de gicma.dev, qui accueillera de les articles techniques, diverses découvertes et astuces, ainsi que l'actualité de l'entreprise.
+Bienvenue sur le blog de gicma.dev, qui accueillera des articles techniques, diverses découvertes et astuces, ainsi que l'actualité de l'entreprise.

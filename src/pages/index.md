@@ -10,7 +10,7 @@ mainpitch:
 
 heading: Bonjour !
 description: >
-    <p>Je suis Giovanni Olivera, souvent connu sur internet sous le pseudonyme Pof Magicfingers. Je me suis passionné de développement informatique depuis l'enfance  en découvrant le HTML, et c'est devenu aujourd'hui devenu mon métier que je pratique professionnellement depuis plus de 10 ans.</p>
+    <p>Je suis Giovanni Olivera, souvent connu sur internet sous le pseudonyme Pof Magicfingers. Je me suis passionné de développement informatique depuis l'enfance  en découvrant le HTML, et c'est aujourd'hui devenu mon métier que je pratique professionnellement depuis plus de 10 ans.</p>
 
     <p>J'ai travaillé en freelance, et en salarié pour des entreprises telles que Econocom, la SNCF, Axa, l'Oréal, ainsi que de nombreuses PME.</p>
 
@@ -43,5 +43,5 @@ intro:
     - image: /img/features/meeting.jpg
       text: >
         <p>Plus que du développement, mon métier est avant tout un accompagnement afin de trouver les solutions concrètes les plus efficaces pour réaliser vos projets et régler vos problématiques métiers.</p>
-        <p> Mes méthodes, inspiré de l'<a href="https://fr.wikipedia.org/wiki/M%C3%A9thode_agile" target="_blank" rel="noopener noreferrer">Agile</a>, se concentrent sur la réalisation rapide de vos projets à travers des paliers de développements définis (itérations) et une constante adaptation aux changements, ou aux nouveaux besoins et aux imprévus inhérents à tous les projets.</p>
+        <p> Mes méthodes, inspirées de l'<a href="https://fr.wikipedia.org/wiki/M%C3%A9thode_agile" target="_blank" rel="noopener noreferrer">Agile</a>, se concentrent sur la réalisation rapide de vos projets à travers des paliers de développements définis (itérations) et une constante adaptation aux changements, ou aux nouveaux besoins et aux imprévus inhérents à tous les projets.</p>
 ---
